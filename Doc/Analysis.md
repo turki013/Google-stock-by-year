@@ -8,7 +8,7 @@
 
 ### 🔍 Bar Chart Interpretation
 
-The bar chart presents the **total trading volume per year** for Google stocks from 2004 to 2024. It uses colored bars to differentiate each year, which helps visualize the trend clearly.
+The bar chart presents the **total trading volume per year** for Google stocks from 2004 to 2025. It uses colored bars to differentiate each year, which helps visualize the trend clearly.
 
 #### Key Findings:
 
