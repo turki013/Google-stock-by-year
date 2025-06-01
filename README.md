@@ -72,7 +72,7 @@ Both charts help in identifying:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/turki013/Google-stock-by-year
+git clone https://github.com/turki013/Google-stock-by-year.git
 cd Google-stock-by-year
 ```
 
