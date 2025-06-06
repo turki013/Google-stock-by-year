@@ -15,8 +15,12 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Install dependencies
+        run: pip install pandas matplotlib
+
       - name: Run script to generate charts
-        run: python src/main.py
+        working-directory: ./src
+        run: python main.py
 
       - name: Commit and push images
         run: |
