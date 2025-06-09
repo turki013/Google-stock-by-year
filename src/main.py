@@ -13,8 +13,10 @@ def data():
         return df
     except FileNotFoundError:
         print("Oops! We couldn't find the file you're looking for. Please double-check the file path and try again.")
+        return None
     except Exception as e:
         print(f"An unexpected error occurred while trying to read the file:\n{e}\nPlease contact support or try again later")
+        return None
 
  
 
@@ -53,6 +55,10 @@ def scatter(df):
 
 if __name__ == "__main__":
     df = data()
+    
+    if df is None:
+        print("🚫 No data to process. Exiting...")
+        exit(1)
     if is_ci():
         print("CI detected: generating all charts automatically...")
         bar(df)
