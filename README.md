@@ -63,6 +63,12 @@ Both charts help in identifying:
 * Periods of stagnation or low volume
 * Potential market reaction to historical events
 
+### **Bar chart** 
+![bar chart](images/bar.png)
+
+### **Scatter Chart**
+![scatter chart](images/scatter.png)
+
 > 📌 Full interpretation available in `Doc/Analysis.md`
 
 ---
