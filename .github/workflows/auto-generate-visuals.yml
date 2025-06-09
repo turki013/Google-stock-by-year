@@ -19,13 +19,12 @@ jobs:
         run: pip install pandas matplotlib
 
       - name: Run script to generate charts
-        working-directory: ./src
-        run: python main.py
+        run: python src/main.py
 
       - name: Commit and push images
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add images/
-          git commit -m "Update generated visuals" || echo "No changes to commit"
+          git commit -m "📊 Auto update charts" || echo "No changes to commit"
           git push
