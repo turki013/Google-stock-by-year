@@ -71,6 +71,9 @@ Both charts help in identifying:
 
 > 📌 Full interpretation available in `Doc/Analysis.md`
 
+
+>[!IMPORTANT]
+> The visuals in this README are auto-generated and update automatically after each push
 ---
 
 ## 🚀 How to Run the Project
